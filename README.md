@@ -15,6 +15,7 @@ Nothing is required.
 
 Just run FairHedge.py.
 
+Datasets used: "adult-all.csv" (You can down load from https://archive.ics.uci.edu/ml/datasets/adult)
 
 ## Training
 
@@ -59,5 +60,4 @@ X axis is time t for all t.
 ![Emp GE: alpha = 1](emp_ge1.png)"Time Aveaged Emprirical GE: alpha=1, a=5"
 ![Emp GE: alpha = 2](emp_ge2.png)"Time Aveaged Emprirical GE: alpha=2, a=5"
 
-## Datasets
-#### adult: adult-all.csv 
+ 
