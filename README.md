@@ -7,7 +7,7 @@ this is implemented in the function GEFairHedge( ).
 2. Applying the (sub)optimal randomized classifier to the test data set.
 3. Generating figures showing the results.
 
-The function, GEFairHedge( ), is the implementaion of the algorithm in the papper. 
+The function, GEFairHedge( ) (from Line 95 to Line 152), is the implementaion of the algorithm in the papper. 
 
 ## Requirements 
 
@@ -28,7 +28,7 @@ for a base classifier of GEFairHedge( )
 
 ## Evaluation
 
-From Line 340 to Line 345. 
+From Line 339 to Line 345. 
 
 Use Line 221 - Line 230 to change the values of a, c, gamma.
 Use Line 232 and Line 233 to change the values of nu and lambda_max
