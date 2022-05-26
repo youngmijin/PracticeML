@@ -1,6 +1,6 @@
-# PracticeML:A Fair Empirical Risk Minimization with Generalized Entropy
+# Paper Title: A Fair Empirical Risk Minimization with Generalized Entropy
 
-This program, "FairHedge.py",  performs the following tasks
+This program, "FairHedge.py",  performs the following tasks: 
 1. Finding a (sub)optimal  randomized classifier that minimizes 
 the empirical risk and satisfies the fairness constraint given by the generalized entropy: 
 this is implemented in the function GEFairHedge( ).
@@ -11,7 +11,8 @@ The function, GEFairHedge( ), is the implementaion of the algorithm in the pappe
 
 ## Requirements 
 
-Nothing is required. 
+Nothing is required.
+
 Just run FairHedge.py.
 
 
@@ -37,7 +38,6 @@ Use Line 232 and Line 233 to change the values of nu and lambda_max
 1. Plots for test error, test generalized entropy for  alpha = {0, 1, 2}, a=5, c= {7, 8, 9, 10}, 
 and various gammas: after 10000 times running because 
 the optimal risk minimizer we obtain is a randomized one. 
-
 X-axis is gamma for all plots.
 
 ![Test Error: alpha = 0](error0.png)"Test Error: alpha=0, a=5"
@@ -51,6 +51,7 @@ X-axis is gamma for all plots.
 for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05: use Line 330 
 if you want a different gamma value from 0.05. 
 X axis is time t for all t.
+
 ![Emp Error: alpha = 0](emp_error0.png)"Time Aveaged Emprirical Error: alpha=0, a=5"
 ![Emp Error: alpha = 1](emp_error1.png)"Time Aveaged Emprirical Error: alpha=1, a=5"
 ![Emp Error: alpha = 2](emp_error2.png)"Time Aveaged Emprirical Error: alpha=2, a=5"
