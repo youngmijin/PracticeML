@@ -15,7 +15,7 @@ Nothing is required.
 
 Just run FairHedge.py.
 
-Datasets used: "adult-all.csv" (You can down load from https://archive.ics.uci.edu/ml/datasets/adult)
+Dataset used: "adult-all.csv" (You can down load the dataset from https://archive.ics.uci.edu/ml/datasets/adult)
 
 ## Training
 
@@ -38,6 +38,7 @@ Use Line 226 and Line 227 to change the values of nu and lambda_max
 # Pre-trained models
 No pre-trained model.
 
+
 ## Results
 
 1. Plots for test error, test generalized entropy for  alpha = {0, 1, 2}, a=5, c= {7, 8, 9, 10}, 
@@ -54,9 +55,10 @@ Use Line 231 (the variable, max_repeat,) if you want to  change the number of ru
 ![Test GE: alpha = 2](ge2.png)"Test GE: alpha=2, a=5"
 
 2. Plots for time averaged empirical error and emprical generalized entropy 
-for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05: 
-use Line 323 if you want a different gamma value from 0.05 for a new plot. 
+for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05. 
 X axis is time t for all t.
+Use Line 323 if you want a different gamma value from 0.05 for a new plot. 
+
 
 ![Emp Error: alpha = 0](emp_error0.png)"Time Aveaged Emprirical Error: alpha=0, a=5"
 ![Emp Error: alpha = 1](emp_error1.png)"Time Aveaged Emprirical Error: alpha=1, a=5"
