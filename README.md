@@ -35,7 +35,7 @@ Use Line 232 and Line 233 to change the values of nu and lambda_max
 
 1. Plots for test error, test generalized entropy for  alpha = {0, 1, 2}, a=5, c= {7, 8, 9, 10}, and various gammas: after 10000 times running because 
 the optimal risk minimizer we obtain is a randomized one.
-
+![Test Error: alpha =0](error0.png)}"error0.png"
 2. Plots for time averaged empirical error and emprical generalized entropy for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05: use Line 330 if you want a different gamma value from 0.05. 
 
 ## Datasets
