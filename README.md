@@ -35,8 +35,20 @@ Use Line 232 and Line 233 to change the values of nu and lambda_max
 
 1. Plots for test error, test generalized entropy for  alpha = {0, 1, 2}, a=5, c= {7, 8, 9, 10}, and various gammas: after 10000 times running because 
 the optimal risk minimizer we obtain is a randomized one.
-![Test Error: alpha =0](error0.png)}"error0.png"
+![Test Error: alpha = 0](error0.png)"Test Error: alpha=0, a=5"
+![Test Error: alpha = 1](error1.png)"Test Error: alpha=1, a=5"
+![Test Error: alpha = 2](error2.png)"Test Error: alpha=2, a=5"
+![Test GE: alpha = 0](ge0.png)"Test GE: alpha=0, a=5"
+![Test GE: alpha = 1](ge1.png)"Test GE: alpha=1, a=5"
+![Test GE: alpha = 2](ge2.png)"Test GE: alpha=2, a=5"
+
 2. Plots for time averaged empirical error and emprical generalized entropy for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05: use Line 330 if you want a different gamma value from 0.05. 
+![Emp Error: alpha = 0](emp_error0.png)"Time Aveaged Emprirical Error: alpha=0, a=5"
+![Emp Error: alpha = 1](emp_error1.png)"Time Aveaged Emprirical Error: alpha=1, a=5"
+![Emp Error: alpha = 2](emp_error2.png)"Time Aveaged Emprirical Error: alpha=2, a=5"
+![Emp GE: alpha = 0](emp_ge0.png)"Time Aveaged Emprirical GE: alpha=0, a=5"
+![Emp GE: alpha = 1](emp_ge1.png)"Time Aveaged Emprirical GE: alpha=1, a=5"
+![Emp GE: alpha = 2](emp_ge2.png)"Time Aveaged Emprirical GE: alpha=2, a=5"
 
 ## Datasets
 #### adult: adult-all.csv 
