@@ -7,7 +7,7 @@ this is implemented in the function GEFairHedge( ).
 2. Applying the (sub)optimal randomized classifier to the test data set.
 3. Generating figures showing the results.
 
-The function, GEFairHedge( ) (from Line 95 to Line 152), is the implementaion of the algorithm in the papper. 
+The function, GEFairHedge( ) (from Line 89 to Line 146), is the implementaion of the algorithm in the papper. 
 
 ## Requirements 
 
@@ -19,19 +19,21 @@ Datasets used: "adult-all.csv" (You can down load from https://archive.ics.uci.e
 
 ## Training
 
-GEFairHedge(), from Line 95 to Line 152 and 
+GEFairHedge(), from Line 89 to Line 146 and 
 
-the code block  from  Line 207 to Line 270 for training LogisticRegression 
+the code block  from  Line 198 to Line 204 for training LogisticRegression 
 for a base classifier of GEFairHedge( )
 
 
 
 ## Evaluation
 
-From Line 339 to Line 345. 
+From Line 333 to Line 339 and 
+ApplyToTestSet( ) (from Line 149 to Line 159). 
 
-Use Line 221 - Line 230 to change the values of a, c, gamma.
-Use Line 232 and Line 233 to change the values of nu and lambda_max
+Use Line 215 - Line 224 to change the values of a, c, gamma.
+Use Line 226 and Line 227 to change the values of nu and lambda_max
+
 
 # Pre-trained models
 No pre-trained model.
@@ -41,7 +43,8 @@ No pre-trained model.
 1. Plots for test error, test generalized entropy for  alpha = {0, 1, 2}, a=5, c= {7, 8, 9, 10}, 
 and various gammas: after 10000 times running because 
 the optimal risk minimizer we obtain is a randomized one. 
-X-axis is gamma for all plots.
+X-axis is gamma for all plots. 
+Use Line 231 (the variable, max_repeat,) if you want to  change the number of runnings.  
 
 ![Test Error: alpha = 0](error0.png)"Test Error: alpha=0, a=5"
 ![Test Error: alpha = 1](error1.png)"Test Error: alpha=1, a=5"
@@ -51,8 +54,8 @@ X-axis is gamma for all plots.
 ![Test GE: alpha = 2](ge2.png)"Test GE: alpha=2, a=5"
 
 2. Plots for time averaged empirical error and emprical generalized entropy 
-for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05: use Line 330 
-if you want a different gamma value from 0.05. 
+for alpha = {0,1,2}, a=5, c={7,8,9,10} and gamma =0.05: 
+use Line 323 if you want a different gamma value from 0.05 for a new plot. 
 X axis is time t for all t.
 
 ![Emp Error: alpha = 0](emp_error0.png)"Time Aveaged Emprirical Error: alpha=0, a=5"
